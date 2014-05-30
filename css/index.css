@@ -1,0 +1,26 @@
+#content ul {
+    list-style-type: none;
+}
+
+.appointment {
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.appointment .day {
+    font-weight: normal;
+    font-size: large;
+}
+
+.appointment .name {
+    color: #8b0101;
+}
+
+.appointment .phone {
+    font-weight: bold;
+}
+
+.address {
+    font-weight: lighter;
+    font-size: xx-large;
+}

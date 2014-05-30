@@ -1,0 +1,98 @@
+html, body {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    min-height: 100%;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo .image {
+    vertical-align: middle;
+    float: left;
+}
+
+.logo .name {
+    font-family: "Monsieur La Doulaise", cursive;
+	font-weight: bold;
+    font-size: 60pt;
+}
+
+.logo .business {
+    position: relative;
+    top: -1em;
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.logo .phone {
+    vertical-align: top;
+    text-align: right;
+    font-size: 21pt;
+    font-weight: bolder;
+}
+
+.navigation {
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation a:link, .navigation a:visited {
+    text-decoration: underline;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+#persistentContact {
+    text-align: right;
+}
+
+.logo.phone {
+    color: #99cc99;
+    font-weight: bold;
+    font-size: large;
+}
+
+#footer {
+    padding: 0 20px;
+    clear: both;
+    font-size: smaller;
+    line-height: 60px;
+    height: 100%;
+    border: 1px solid;
+}
+
+.h1 {
+    color: #fc6e13;
+}
+
+.h2 {
+    color: #cd0000;
+}
+
+.ho {
+    font-weight: bold;
+}
+
+.mi {
+    font-weight: bold;
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.column {
+    float: left;
+}
